@@ -1,0 +1,14 @@
+8 EUR 832
+GBP 983
+EUR 10d00
+-20 EUR
+100 CAD
+adsfasdf
+GBP -83
+CAD -50
+EUR -12
+USD 5
+USD 20
+
+asdfasdf
+USD 20
