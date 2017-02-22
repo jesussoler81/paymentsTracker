@@ -42,10 +42,12 @@ rate is missing, the application can not continue and will stop.
 # HOW-TO #############
 ######################
 - How to compile the application?
-  > mvn clean install  (in Tracker folder)
+ Go to Tracker folder and type:
+  > mvn clean install
 
 - How to run the application from the command line?
-  > java -cp target\Tracker-1.0-SNAPSHOT.jar com.bsc.payments.Tracker [fileToBeLoaded]   (in Tracker folder)
+ After compiling go to Tracker folder and type (fileToBeLoaded is an optional parameter):
+  > java -cp target\Tracker-1.0-SNAPSHOT.jar com.bsc.payments.Tracker fileToBeLoaded
   
 - src/test/resources contains 3 example input files.
 
