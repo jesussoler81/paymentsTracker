@@ -43,7 +43,7 @@ public class PaymentTest {
     public void testCreatePaymentCurrencyError() {
         Payment payment = Payment.createPayment("CZZ", amount.toString());
         assertEquals(payment, null);
-        String expected = "Couldn't convert 'CZZ' to a currency and '100.45' to an amount.\r\n";
+        String expected = "Couldn't convert 'CZZ' to a currency and '100.45' to an amount.\n";
         assertEquals(expected, errContent.toString());
     }
 
@@ -51,7 +51,7 @@ public class PaymentTest {
     public void testCreatePaymentAmountError() {
         Payment payment = Payment.createPayment("CZK", "P12E5");
         assertEquals(payment, null);
-        String expected = "Couldn't convert 'CZK' to a currency and 'P12E5' to an amount.\r\n";
+        String expected = "Couldn't convert 'CZK' to a currency and 'P12E5' to an amount.\n";
         assertEquals(expected, errContent.toString());
     }
 }
