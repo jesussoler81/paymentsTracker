@@ -23,7 +23,7 @@ public class PaymentsController {
     private final Lock w = rwl.writeLock();
 
     /**
-     * Constructor.
+     * Default Constructor. Creates a model and view objects.
      */
     public PaymentsController() {
         this.model = new PaymentsModel();
